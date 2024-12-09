@@ -8,8 +8,8 @@ const StepIndicator: React.FC<StepIndicatorInterface> = ({ step, current }) => {
       style={{
         backgroundSize: "contain",
         backgroundImage: current
-          ? "url(../../public/assets/images/step-indicator-active-icon.svg)"
-          : "url(../../public/assets/images/step-indicator-inactive-icon.svg)",
+          ? "url('../../public/assets/images/step-indicator-active-icon.svg')"
+          : "url('../../public/assets/images/step-indicator-inactive-icon.svg')",
       }}
     >
       <Typography

@@ -12,14 +12,14 @@ const PlanCard: React.FC<PlanCardInterface> = ({
   return (
     <div
       onClick={onClick}
-      className={`flex pointer flex-col border p-x-[16px] p-y-[15px] :hover:border-purple :focus:border-purple :focus:bg-grey radius-[8px] w-full flex-1 lg:w-[138px] ${
+      className={`flex flex-col border p-x-[16px] p-y-[15px] :hover:border-purple :focus:border-purple :focus:bg-grey radius-[8px] w-full flex-1 lg:w-[138px] ${
         current && "border-purple bg-light-grey"
       }`}
     >
       <div className="flex flex-row lg:flex-col gap-[24px] flex-1 w-full ">
         <img
           className="w-[3rem]"
-          src={`./assets/images/plan-${String(plan).toLowerCase()}-icon.svg`}
+          src={`../../public/assets/images/plan-${String(plan).toLowerCase()}-icon.svg`}
           alt=""
         />
         <div className="flex flex-col items-start justify-start gap-[10px]">

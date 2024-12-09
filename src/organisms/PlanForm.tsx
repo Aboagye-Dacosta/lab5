@@ -19,7 +19,7 @@ const PlanForm: React.FC = () => {
           <PlanCard
             key={pl.id}
             mode={mode}
-            current={pl.plan == plan.plan}
+            current={pl?.plan == plan?.plan}
             value={pl.value}
             plan={pl.plan}
             discount={pl.discount}

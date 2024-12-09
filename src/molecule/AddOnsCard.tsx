@@ -13,7 +13,7 @@ const AddOnsCard: React.FC<AddOnsCardInterface> = ({
   return (
     <Typography variant="label" htmlFor={title}>
       <div
-        className={`border p-x-[24px] p-y-[12px] radius-[8px] pointer ${
+        className={`border p-x-[24px] p-y-[12px] radius-[8px] ${
           initialValue === title && "border-purple bg-light-grey"
         } :hover:border-purple w-full`}
       >
