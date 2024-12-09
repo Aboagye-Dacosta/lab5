@@ -20,7 +20,7 @@ const Checkbox: React.FC<{ onChange: OnChange; [key: string]: unknown }> = ({
       />
       {(state || (rem["checked"] as boolean)) && (
         <img
-          src="./assets/images/icon-checkmark.svg"
+          src="../../public/assets/images/icon-checkmark.svg"
           className="absolute top-50 left-50 -translate-50 w-[1rem]"
         />
       )}
