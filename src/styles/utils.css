@@ -474,12 +474,12 @@ $respond-big-desktop: 112.5em; //1800
 }
 
 .bg-image-default {
-  background-image: url("./assets/images/bg-sidebar-mobile.svg");
+  background-image: url("../../public/assets/images/bg-sidebar-mobile.svg");
   background-repeat: no-repeat;
   background-size: 100%;
 
   @media screen and (min-width: 56.25em) {
-    background-image: url("./assets/images/bg-sidebar-desktop.svg");
+    background-image: url("../../public/assets/images/bg-sidebar-desktop.svg");
     background-size: auto;
   }
 }
