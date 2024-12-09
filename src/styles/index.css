@@ -1,0 +1,67 @@
+@import url("./font.css");
+
+:root {
+  --bg: #eff5ff;
+  --border-color: #d6d9e6;
+  --denim: #022959;
+  --grey: #9699aa;
+  --light-grey: #f8f9ff;
+  --light-blue: #abbcff;
+  --orange: #ffaf7e;
+  --pink: #f9818e;
+  --purple: #483eff;
+  --sky-blue: #bee2fd;
+  --white: #ffffff;
+  --red-error: #ee374a;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  transition: 200ms ease-in-out;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  background-color: var(--grey);
+  min-height: 100vh;
+  /* position: relative; */
+}
+
+@media screen and (min-width: 56.25em) {
+  #root {
+    align-items: center;
+  }
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+.input {
+  border-radius: 8px;
+  border: 1px solid var(--Border-Color, #d6d9e6);
+  background: var(--White, #fff);
+}
+
+.input-active {
+  border-radius: 8px;
+  border: 1px solid var(--Purple, #483eff);
+  background: var(--white, #fff);
+}
