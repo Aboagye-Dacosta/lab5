@@ -10,7 +10,7 @@ const PlanMode: React.FC<{
 }> = ({ onChange, initialValue }) => {
   const [checked, setChecked] = useState(false);
   return (
-    <div className="flex items-center justify-center w-full gap-[24px] bg-light-grey p-y-[15px] radius-[8px]">
+    <div className="flex pointer items-center justify-center w-full gap-[24px] bg-light-grey p-y-[15px] radius-[8px]">
       <Typography
         weight="weight-500"
         size="fs-x-sm"

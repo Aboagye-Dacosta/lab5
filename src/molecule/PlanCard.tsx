@@ -12,7 +12,7 @@ const PlanCard: React.FC<PlanCardInterface> = ({
   return (
     <div
       onClick={onClick}
-      className={`flex flex-col border p-x-[16px] p-y-[15px] :hover:border-purple :focus:border-purple :focus:bg-grey radius-[8px] w-full flex-1 lg:w-[138px] ${
+      className={`flex pointer flex-col border p-x-[16px] p-y-[15px] :hover:border-purple :focus:border-purple :focus:bg-grey radius-[8px] w-full flex-1 lg:w-[138px] ${
         current && "border-purple bg-light-grey"
       }`}
     >

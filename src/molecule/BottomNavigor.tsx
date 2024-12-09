@@ -6,7 +6,7 @@ const BottomNavigator: React.FC<{ onClick: () => void }> = ({ onClick }) => {
   const { pathname } = useLocation();
   const { step, handleSetStep } = useForm();
   return (
-    <div className="flex justify-between items-center bg-white p-x-[24px] p-y-[20px] ">
+    <div className="flex pointer justify-between items-center bg-white p-x-[24px] p-y-[20px] ">
       {!pathname.includes("info") && (
         <Link
           to={-1 as To}
